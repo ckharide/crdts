@@ -34,19 +34,4 @@ class GCounter:
         print(self.replicas)
     
 
-gc1 = GCounter(10)
-gc1.increment(4)
-gc1.increment(2)
-gc1.increment(7)
-gc1.increment(4)
 
-
-gc2 = GCounter(10)
-gc2.increment(3)
-gc2.increment(4)
-gc2.increment(2)
-gc2.increment(3)
-
-
-gc1.merge(gc2)
-print(gc1.query())
