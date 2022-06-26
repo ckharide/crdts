@@ -11,6 +11,21 @@ This merge is performed automatically by the CRDT, without requiring any special
 # Examples
 
 ## Growth Only Counter 
+```
+gc1 = GCounter(10)
+''' add to the 4th , 2nd and 7 replica '''
+gc1.increment(4) 
+gc1.increment(2)
+gc1.increment(7)
+gc1.increment(4)
+
+''' Returns 4 and displays the state of the counter '''
+gc1.display()
+print(gc1.query())
+gc1.merge(gc2)
+print(gc1.query())
+```
+
 ## PN Counter
 ## G-Only Set
 
