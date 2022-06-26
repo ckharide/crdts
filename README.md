@@ -16,5 +16,5 @@ This merge is performed automatically by the CRDT, without requiring any special
 
 # References 
 
-https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type
-https://hal.inria.fr/hal-00932836/file/CRDTs_SSS-2011.pdf - Shapiro, Marc; Preguiça, Nuno; Baquero, Carlos; Zawirski, Marek
+- https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type
+- https://hal.inria.fr/hal-00932836/file/CRDTs_SSS-2011.pdf - Shapiro, Marc; Preguiça, Nuno; Baquero, Carlos; Zawirski, Marek
