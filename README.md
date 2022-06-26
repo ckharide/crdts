@@ -45,6 +45,23 @@ print(p1.query())
 ```
 ## G-Only Set
 
+```
+gset1.addmember("A")
+gset2.addmember("D")
+gset1.addmember("C")
+gset1.addmember("B")
+
+print(gset1.compare(gset2))
+print(gset2.compare(gset1))
+print("")
+gset2.display()
+print("Looking up prior to merge" , gset1.lookup("D"))
+print (gset1.merge(gset2))
+print("Looking up after merge" , gset1.lookup("D"))
+gset1.display()
+
+```
+
 # References 
 
 - https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type
