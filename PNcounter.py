@@ -27,16 +27,4 @@ class PNCounter:
         self.ncounter.display()
 
 
-p1 = PNCounter(3)
-p2 = PNCounter(3)
-p1.increment(1)
-p1.increment(2)
-p1.query()
 
-p2.increment(3)
-
-p1.display()
-p2.display()
-p1.merge(p2)
-p1.display()
-print(p1.query())
