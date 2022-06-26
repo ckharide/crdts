@@ -13,3 +13,7 @@ This merge is performed automatically by the CRDT, without requiring any special
 ## Growth Only Counter 
 ## PN Counter
 ## G-Only Set
+
+# References 
+
+https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type
